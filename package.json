@@ -1,0 +1,17 @@
+{
+  "name": "realestate-platform",
+  "version": "1.0.0",
+  "description": "Real estate platform application",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18 <=22"
+  },
+  "packageManager": "npm@10.8.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node -e \"const v=process.versions.node.split('.')[0];if(v<18||v>22){console.error('❌ Node '+process.versions.node+' not supported. Use 18–22.');process.exit(1)}\""
+  },
+  "keywords": ["real-estate", "platform"],
+  "author": "",
+  "license": "ISC"
+}
